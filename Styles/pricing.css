@@ -1,0 +1,47 @@
+body{
+    background-color: #03351F;
+    font-family:monospace, Times, serif;
+    color: #FF99F1;
+    line-height:1.5rem; 
+}
+
+h1, h2, h3, h4, h5, h6
+{ 
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 
+{
+    line-height:4.25rem;
+}
+
+h2
+{
+    line-height:2.8125rem;
+}
+
+.our-support-team
+{
+    background-color: #FF99F1;
+    font-family:monospace, Times, serif;
+    color: #03351F;
+    line-height:1.5rem;
+}
+
+blockquote p{
+    font-style: italic;
+}
+
+table, th, td
+{
+    border: 2px solid #FF99F1;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+img
+{
+    border: 20px dashed #03351F;
+}
+
+

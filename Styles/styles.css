@@ -1,0 +1,94 @@
+html {
+
+    box-sizing: border-box;
+ 
+ }
+ 
+ *, *:before, *:after {
+ 
+    box-sizing: inherit;
+ 
+ }
+
+ body {
+    max-width: 31.25rem;  /* makes page mobile size only */
+    margin: 0 auto;
+  }
+  
+h2 {
+    color: #ff0000;
+}
+
+/* More specific than just selecting p */
+.warning {
+    color: #ff0000;
+}
+
+p {
+    color: #57b233;
+}
+
+ol li, 
+dd {
+    color: green;
+}
+
+#carrots {
+    color: rgb(255, 165, 0);
+}
+
+section.featured {
+    background-color: azure;
+    /* color: blueviolet; */
+}
+
+/* h2 {
+    color: cornflowerblue;
+} */
+nav li {
+    display: inline-block;
+}
+
+section.warning img {
+    display: block;
+}
+
+.section-table {
+    padding: 1rem 2rem 3rem 4rem;
+    margin: 6rem;
+}
+
+td,
+th{
+    padding: .5rem;
+}
+
+section.warning {
+    padding: 1rem .5rem;
+}
+
+.table-custom {
+    padding: 2rem 1rem 3rem;
+}
+
+a {
+    color: #338033;
+}
+
+a:visited {
+    color: #003
+}
+
+a:hover,
+a:focus {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+a:focus {
+    outline: 1px dotted #003;
+}
+
+a:active {
+    background-color:#ff0000;
+}
