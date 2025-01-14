@@ -180,6 +180,7 @@ nav a {
             width: 100%;
         }
 
-        .testimonials article {    
+        .testimonials article {  
+            max-width: 200px;  
         }
     }
